@@ -15,14 +15,14 @@ Auth0 è basato su OAuth2.0 che è un protocollo di autorizzazione utilizzato pe
 Primo passo è la creazione di un account su [Auth0](https://auth0.com/signup), per poi usare lo stesso per la creazione dell'applicazione.
 
 Di seguito una schermata della dashboard principale
-![alt text](image-8.png)
+![alt text](image/image-8.png)
 
 <br><br>
 ***
 <br><br>
 
 Una volta creata sarà necessario prendere nota degli identificativi relativi a <b>Domain, Client-ID</b>, presenti tra le impostazioni della stessa.
-![alt text](image-10.png)
+![alt text](image/image-10.png)
 
 >Tali parametri individuati saranno poi da sostituire nello script _environments.ts_, rispetto ai nomi in maiuscolo. YOUR_REDIRECT_URI sarà invece relativo all'indirizzo cui volete l'applicazione si ridirezioni una volta effettuato il login tramite auth0.
 ```
@@ -41,14 +41,14 @@ export const environment = {
 ***
 
 Di seguito, alcune schermate dell'applicazione. Dalla dashboard principale sino alla schermata del profilo, contenente __email__, __nickname__ e __immagine del profilo__.
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
-![alt text](image-7.png)
-![alt text](image-11.png)
+![alt text](image/image.png)
+![alt text](image/image-1.png)
+![alt text](image/image-3.png)
+![alt text](image/image-4.png)
+![alt text](image/image-5.png)
+![alt text](image/image-6.png)
+![alt text](image/image-7.png)
+![alt text](image/image-11.png)
 
 # Esecuzione
 Per l'esecuzione dell'applicazione, dopo aver completato la parte di configurazione, basterà:
