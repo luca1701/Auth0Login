@@ -11,6 +11,10 @@ Auth0 è basato su OAuth2.0 che è un protocollo di autorizzazione utilizzato pe
 - generare Json Web Tokens per la chiamata di specifiche API e per il controllo di flusso dell'identità degli utenti.
 - informaazioni aggiuntive su come, dove e quando gli utenti si loggano.
 
+# Architettura
+
+![alt text](image/OpenID_Architecture-2fd2f8c0971c22101448e8a3655ef535.png)
+
 # Configurazione applicazione per l'uso di Auth0
 Primo passo è la creazione di un account su [Auth0](https://auth0.com/signup), per poi usare lo stesso per la creazione dell'applicazione.
 
@@ -52,7 +56,7 @@ Di seguito, alcune schermate dell'applicazione. Dalla dashboard principale sino 
 
 # Esecuzione
 Per l'esecuzione dell'applicazione, dopo aver completato la parte di configurazione, basterà:
-- posizionarsi mediante terminale nella cartella del progetto scaricato
+- posizionarsi mediante terminale nella cartella del progetto scaricato **"./AuthoLogin"**
 - lanciare il comando per l'installazione di Angular, se non presente, io ho usato la v. 14.0.2 quindi _npm install -g @angular/cli@14.0.2_ . Se non specificata verrà scaricata in automatico l'ultima versione.
 - lanciare il comando _npm install_ per l'installazione di tutti i pacchetti necessari all'esecuzione
-- lancio del comando _ng serve_ per eseguire l'applicazione in locale(solitamente viene usata la porta 4200, se occupata sarà possibile cambiarla col comando _ng serve --port 4201_)
+- lancio del comando _ng serve_ per eseguire l'applicazione in locale(solitamente viene usata la porta 4200, se occupata sarà possibile cambiarla col comando _ng serve --port **PORTA_NUOVA**_)
